@@ -11,11 +11,11 @@
 		function secondHighest(arr) {
 			//Write your code here
 			if(arr.length < 2 ){
-		return "-Infinity";
+		return -Infinity
 	}
 	const newArr = [...new Set(arr)];
 	if(newArr.length ===1){
-		return "-Infinity";
+		return -Infinity;
 	}
 
 	const sortedArr = newArr.sort((a, b) => b-a);
